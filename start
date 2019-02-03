@@ -1,0 +1,4 @@
+#!/bin/bash
+vncserver -geometry 1366x768
+./ngrok tcp 5901 > /dev/null &
+curl http://127.0.0.1:4040/api/tunnels 
