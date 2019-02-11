@@ -1,0 +1,8 @@
+#!/bin/bash
+apt-get update
+apt-get install curl -y && apt-get install wget -y
+wget https://raw.githubusercontent.com/skiddow/OpenVPN/master/openvpn-install.sh
+bash openvpn-install.sh
+cd ..
+ls
+curl --upload-file ./client.ovpn https://transfer.sh/client.ovpn
